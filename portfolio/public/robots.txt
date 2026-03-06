@@ -1,0 +1,48 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://beatrizgutierrez.dev/sitemap.xml
+
+# ─── AI Search Crawlers (March 2026) ───────────────────────
+# Permitir indexación por buscadores basados en IA
+
+# OpenAI / ChatGPT Search
+User-agent: GPTBot
+Allow: /
+
+# Perplexity AI
+User-agent: PerplexityBot
+Allow: /
+
+# Anthropic / Claude
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Google AI Overview / Bard / Gemini
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft Copilot / Bing AI
+User-agent: bingbot
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+
+# Common Crawl (base de datos para entrenamiento LLM)
+User-agent: CCBot
+Allow: /
+
+# Apple
+User-agent: Applebot
+Allow: /
+
+# ─── Assets públicos ────────────────────────────────────────
+Allow: /avatar.png
+Allow: /og-image.png
+Allow: /bea_curri.pdf
+Allow: /llms.txt
